@@ -1,0 +1,75 @@
+; author: <Nodiru Gaji>
+; c_date: 2021-02-04
+
+printing only single page
+
+/ -> creating the page and tries to save
+  // where it will go on saving ???
+  // => /window/ ?
+  // => /<name>/ ?
+
+
+// on usage
+  // let's say that user wanna open another *window in the PWD
+  // how it should work ?
+
+  // then *window will be only for grouping things
+  // searcher will search and load the information in the *window
+
+  // editing is avaliable in the main *window
+  // it means that every *window is readable and editable only for user
+
+
+// let's talk about user registration and usage
+// everyone can clone this repository and deploy it whatever host wants
+
+// writing the DNS (bit.ly) thing for them to save
+
+
+// let's talk about database registration and database usage
+// user will open plagin that allows to write the database information
+// then user can use this information for another plagins
+
+// like on get use *this.database
+
+
+// filling the database
+
+
+writing the connector to the database
+and whatever user wants will create in the web
+
+creating database, tables, and structures for them
+
+// now i need only the
+
+/ root -> only for user it's a dashboard, for others it'll be anything,
+that *this.user wants
+
+
+// if it's my web page then i can
+
+
+sh1chan.com/    <user>
+                / (dashboard)
+
+
+sh1chan -> route.register(/<user>/*)
+                          // (*) -> user registrations
+
+
+user -> creating -> *window
+
+
+need to write route registrations
+
+route -> data gio location from the database
+
+user can use his own database to store the data
+or use root
+
+// how to structure the database so root can create his own data
+// and let users save or delete their databases and tables
+
+
+// we'll call it query programming
