@@ -1,6 +1,6 @@
 # Arutairu (アルタイル)
 
-![alt text](https://github.com/ArutairuMup/arutairu/blob/dev/notes/arutairu.gif)
+![alt text](notes/idea/readme/arutairu.gif)
 
 Union components. Making a components changeable.
 ```
