@@ -1,12 +1,13 @@
 # Arutairu (アルタイル)
 
-![alt text](notes/idea/readme/arutairu.gif)
-
 Union components. Making a components changeable.
 ```
-Writing Bakkuendo and Furontoendo in different languages, so it may be replaceable.
+Writing BackEnd and FrontEnd in different languages, so it may be replaceable.
 ```
 
+![Arutairu](notes/idea/readme/arutairu.gif)
+![Board for Holopsicon](notes/idea/readme/board_for_holopsicon.png)
+![Holopsicon](notes/idea/readme/holopsicon.png)
 
-### furontoendo :: ui, view plugins and themes.
-### bakkuendo :: db, RESTful API.
+### FrontEnd :: ui, view plugins and themes.
+### BackEnd :: db, RESTful API.
