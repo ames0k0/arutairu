@@ -1,0 +1,7 @@
+; author: <Nodiru Gaji>
+; c_date: 2021-02-16
+
+
+[ polygon ]
+  - create element by mouse move
+  - drag and drop element anywhere on the polygon

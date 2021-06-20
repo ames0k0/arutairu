@@ -1,6 +1,53 @@
 ; author: <Nodiru Gaji>
 ; c_date: 2021-02-04
 
+
+[ errors ]
+  [ asdf ]
+    ; checksum -> readme
+    + bash ~/.asdf/plugins/nodejs/bin/import-release-team-keyring
+
+
+[ arutairu ]
+
+  [ abilities ]
+
+    [ &holopsicon ]
+      /**
+       * holopsicon - just an abilities not a project. Root component.
+       *
+       * state => { view, edit }
+       *
+       * reactjs components -> ('Vogelchevalier') ->
+       */
+
+      ; holopsicon (0)
+        /* for &Vogelchevalier. Polygon */
+
+        + blank page { wh:100% }
+          [ builder ]
+          // [ event handler ]
+          //   [ mouse ]
+          //     -
+
+      ; transport (1)
+        /* new &Vologelchevalier */
+
+      ; teleport (2)
+        /* to another &Vogelchevalier */
+
+      ; insert (3)
+        /* a.k.a scratchpad ? */
+
+      ; delete (4)
+        /* from &Vogelchevalier ? */
+
+      ; updating (5)
+        /* new version */
+
+      ; change (6)
+        /* edit */
+
 printing only single page
 
 / -> creating the page and tries to save
