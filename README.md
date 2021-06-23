@@ -9,5 +9,17 @@ Writing BackEnd and FrontEnd in different languages, so it may be replaceable.
 ![Board for Holopsicon](notes/idea/readme/board_for_holopsicon.png)
 ![Holopsicon](notes/idea/readme/holopsicon.png)
 
+
+### ANIME titles
+```
+Isaac Asimov's "Three Laws of Robotics"
+  A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+  A robot must obey orders given it by human beings except where such orders would conflict with the First Law.
+  A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.
+```
+- [x] Pale Cocoon
+- [ ] Blame!
+- [ ] Eve no Jikan
+
 ### FrontEnd :: ui, view plugins and themes.
 ### BackEnd :: db, RESTful API.
