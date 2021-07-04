@@ -2,6 +2,44 @@
 ; c_date: 2021-02-04
 
 
+[ navbar ] // not setted yet
+  - application balance ?
+
+
+:problem:
+  ; people doesn't know what to do in their life
+  ; bcz of it they are doing some stupid shit (about me)
+
+  - what will you do in your life ?
+  -- what other peoples are doing in their life ?
+
+  1. to live with someone (who will protect you : Family)
+  2. to live single
+    - buy a house
+    - hotel
+    - others
+  3. to live with someone (that you will protect him/her : Family)
+  4. minimum thing that you need to live in this country
+    - if not setted then you should fill it by yourself
+  5. minimum budget to live in this country
+    - where you can get that minimum things in this country
+  6. spending money
+    - how much, where and why ?
+    - economy
+    - investing
+    - banks
+
+:providing a service that will consult about problem solving:
+  - how much it will cost ?
+  -- 1 week free
+  -- 1$ monthly
+    - removes the application balance (ads)
+  -- how it identifies who payed or not
+    - ip addressing
+    -- adding the information about to ignore paying and use it free
+    -- but it will limit actions
+
+
 [ errors ]
   [ asdf ]
     ; checksum -> readme

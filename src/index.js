@@ -5,11 +5,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 
-import Holopsicon from './components/App/Holopsicon';
+// import Holopsicon from './components/App/Holopsicon';
+import IndexRoute from './components/Routes/Index';
 
 
 ReactDOM.render(
-  <Holopsicon />,
+  <IndexRoute />,
   document.getElementById('root')
 )
 

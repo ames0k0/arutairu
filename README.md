@@ -22,4 +22,18 @@ Isaac Asimov's "Three Laws of Robotics"
 - [ ] Eve no Jikan
 
 ### FrontEnd :: ui, view plugins and themes.
+#### Project Structure
+```
+/src
+  /components
+    ;
+    ; Routes <- Apps <- Boards <- Tools <- Utils
+    ;
+    /Routes   - Pages for each routes
+    /Boards   - Working with types
+    /Apps     - Applications ? (page::[Board->(tools->utils)])
+    /Utils    - Utils ?
+    /Tools    - Tools ?
+
+```
 ### BackEnd :: db, RESTful API.

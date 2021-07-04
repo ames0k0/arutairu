@@ -1,0 +1,12 @@
+; author: <Nodiru Gaji>
+; c_date: 2021-07-04
+
+[ ReactScript command not found ]
+ - https://stackoverflow.com/questions/40546231/sh-react-scripts-command-not-found-after-running-npm-start
+
+[ Inherit the Component ]
+  - https://thoughtspile.github.io/2018/11/05/react-extend-justified/
+
+[ Exporting the Component ]
+  - https://sebhastian.com/react-component-not-defined/
+  - https://reactjs.org/docs/code-splitting.html
