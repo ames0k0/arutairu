@@ -3,7 +3,9 @@
  */
 
 import React from 'react';
-import WebBoard from '../Boards/Web';
+// import WebBoard from '../Boards/Web';
+// import BaseBoard from '../Boards/Base';
+import TreeViewBoard from '../Boards/TreeView';
 
 
 class HelloWorldApp extends React.Component {
@@ -14,9 +16,7 @@ class HelloWorldApp extends React.Component {
 
   render() {
     return (
-      <WebBoard>
-        <h1>Hello, World!</h1>
-      </WebBoard>
+      <TreeViewBoard />
     );
   }
 

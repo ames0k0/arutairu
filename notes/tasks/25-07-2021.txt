@@ -1,0 +1,13 @@
+; author: <Nodiru Gaji>
+; c_date: 2021-07-25
+
+
+;; Base board as the global one
+
+
+[ import boards into the base board ] :: nope
+  - add event listener for KeyPress
+  - add key to call *showTree
+
+
+[ ... ]

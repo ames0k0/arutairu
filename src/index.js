@@ -3,9 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
-
-
-// import Holopsicon from './components/App/Holopsicon';
 import IndexRoute from './components/Routes/Index';
 
 

@@ -1,0 +1,12 @@
+; author: <Nodiru Gaji>
+; c_date: 2021-07-12
+
+
+Base Board
+
+  [ Events ]
+    - to create board
+      + Add extended boards to the base board array.
+      - create one by mouse coordinates
+        - set an unique *name for class
+    - to change the board size

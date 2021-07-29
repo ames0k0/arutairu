@@ -27,13 +27,12 @@ Isaac Asimov's "Three Laws of Robotics"
 /src
   /components
     ;
-    ; Routes <- Apps <- Boards <- Tools <- Utils
+    ; Routes <- Apps (Tools <- Utils) <- Boards
     ;
     /Routes   - Pages for each routes
     /Boards   - Working with types
-    /Apps     - Applications ? (page::[Board->(tools->utils)])
-    /Utils    - Utils ?
-    /Tools    - Tools ?
-
+    /Apps     - Applications
+    /Utils    - Utils
+    /Tools    - Tools
 ```
 ### BackEnd :: db, RESTful API.
