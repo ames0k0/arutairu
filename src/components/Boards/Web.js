@@ -10,12 +10,11 @@ class WebBoard extends Floated {
   constructor(props) {
     super(props);
 
-    // this.state = { count: 0 };
-
     this.updateStyle = this.updateStyle.bind(this);
+  }
 
-    this.addBoard(WebBoard.prototype.constructor);
-
+  static view_functions() {
+    return ['view_me', 'not_me', 'skip_me', 'view_others'];
   }
 
   updateStyle() {

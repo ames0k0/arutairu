@@ -1,0 +1,12 @@
+; author: <Nodiru Gaji>
+; c_date: 2021-08-15
+
+[ polygon ]
+  - register components
+    + builtins
+  - render components
+
+[ builtins ]
+  [ ComponentTreeView ]
+    - parse components functionality (application)
+  [ SaveRoute ]

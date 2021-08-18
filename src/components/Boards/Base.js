@@ -16,12 +16,10 @@ export default class BaseBoard extends React.Component {
 
     // Super
     this.key = "0";
-    this.boards = [];
-    this.addBoard = this.addBoard.bind(this);
 
     this.state = {
       mode: "show",
-      children: [],
+      childComponents: [],
     }
 
     this.style = {
@@ -36,16 +34,30 @@ export default class BaseBoard extends React.Component {
     // Functions
     this.createBoard = this.createBoard.bind(this);
 
+    this.registerComponents = this.registerComponents.bind(this);
+
   }
 
-  addBoard(props) {
-    this.boards.push(props);
+  componentDidMount() {
+    this.registerComponents()
   }
 
-  // addChildren(props) {
-  //   this.children.push(props);
-  // }
-
+  /**
+   * register only components
+   */
+  registerComponents() {
+    this.setState((state) => {
+      let renderedComponents = state.childComponents;
+      this.props.registerComponents.forEach((item, i) => {
+        item.parentKey = this.key;
+        item.key = renderedComponents.length ? renderedComponents[(renderedComponents.length-1)].key+1 : i;
+        renderedComponents.push(item);
+      })
+      return {
+        childComponents: renderedComponents
+      }
+    });
+  }
 
   // SEE: https://codesandbox.io/s/y06mk7wr49?file=/src/index.js:753-792
   createBoard(caller, boardName, x, y, message) {
