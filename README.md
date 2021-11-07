@@ -33,3 +33,8 @@ Isaac Asimov's "Three Laws of Robotics"
 - [ ] Pale Cocoon
 - [ ] Blame!
 - [ ] Eve no Jikan
+
+### Deprecated: Moved to the GitLab
+```
+Privacy! Project will run only for a users, not for an organizations!
+```

@@ -5,21 +5,35 @@
  * Events
  * ------
  * Creating the element by mouse. This element will be used as tree view.
+ *
  */
 
 import React from 'react';
 
 
+/**
+ *
+ * Parent *BaseBoard*
+ *
+ * add_child_node()       - adding child node to the list to render
+ * remove_child_node()    - removing the child node from render list
+ * swap_child_nodes()     - swap child nodes
+ * reorder_child_order()  - reordering the child nodes key
+ */
 export default class BaseBoard extends React.Component {
   constructor(props) {
     super(props);
 
-    // Super
-    this.key = "0";
+    // getting the parent *order_key or 0
+    // undefined
+    this.parent = props.parent;
+    this.order = 0;
 
     this.state = {
+      // show or hide
       mode: "show",
-      childComponents: [],
+      // added child nodes
+      childNodes: [],
     }
 
     this.style = {
@@ -37,6 +51,20 @@ export default class BaseBoard extends React.Component {
     this.registerComponents = this.registerComponents.bind(this);
 
   }
+
+  add_child_node(child_node) {
+    return 0;
+  }
+  remove_child_node(child_node) {
+    return 0;
+  }
+  swap_child_nodes(self, other) {
+    return 0;
+  }
+  reorder_child_order() {
+    return 0;
+  }
+
 
   componentDidMount() {
     this.registerComponents()
