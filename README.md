@@ -18,6 +18,12 @@
 
 
 () => /Routes/{apps}/appRoutes/{components}
+() => /*main/workspaces/*group_name/page_name/*N
+
+main        - dashboard (page that has been marked as main)
+group_name  - dashboard (page that has been marked as main for this group)
+page_name   - single page
+N           - numeration of the page (navigation)
 ```
 
 ![Board for Holopsicon](notes/idea/readme/board_for_holopsicon.png)
